@@ -1,0 +1,277 @@
+{
+  "experiment_name": "template_experiment",
+  "instances": {
+    "root_path": "instancias",
+    "types": [
+      "random",
+      "community"
+    ],
+    "n_values": [
+      100
+    ],
+    "ratios": [
+      420
+    ],
+    "q_values": [
+      500
+    ],
+    "instances_per_group": 10
+  },
+  "precomputed": {
+    "root_path": "precomputed",
+    "auto_generate_if_missing": true
+  },
+  "solvers": [
+    {
+      "name": "BreakCount",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "MakeCount",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "BridgeBreak",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "BridgeMakeBreak",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "CommunityBreak",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "CommunityMakeBreak",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "PAWS_Break_DET",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "PAWS_Make_DET",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "BridgeBreakPAWS_DET",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "BridgeMakeBreakPAWS_DET",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "CommunityBreakPAWS_DET",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    },
+    {
+      "name": "CommunityMakeBreakPAWS_DET",
+      "enabled": true,
+      "params": {
+        "max_flips": 100000,
+        "max_flips_per_variable": 0.0,
+        "max_tries": 10,
+        "p": 0.5,
+        "seed": 42,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "alpha": 1.0,
+        "lambda": 1.0,
+        "p_soft": 0.05,
+        "maxinc": 20
+      }
+    }
+  ],
+  "logging": {
+    "output_dir": "results/template_experiment",
+    "instance_results_file": "instance_results.csv",
+    "summary_results_file": "summary_results.csv"
+  },
+  "execution": {
+    "threads": 4
+  },
+  "auto_stopping": {
+    "patience_ratios": 0
+  }
+}
